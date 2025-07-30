@@ -1,18 +1,19 @@
-# Random Password Generator (Python)
+# Password Manager (Python)
 
-Created: July 15, 2025
+📅 Created: July 15, 2025
 
-This Python project generates secure, random passwords based on user-defined criteria like length and character types.
+This is a beginner-friendly password manager built using Python.  
+It allows users to store, view, and retrieve passwords securely by saving them to a local file.
 
 # Features
-- Generates passwords with letters, numbers, and symbols
-- User input to select password length
-- Ensures passwords are random and strong
-- Command-line interface
+- Add and save new credentials (website, username, password)
+- View all saved passwords
+- Option to search for a password by website name
+- Uses local file (`.txt` or `.json`) for storage
+- Password encryption using `cryptography` module
+
 
 # How to Run
 
-Run the script with:
-
 ```bash
-python password_generator.py
+python password_manager.py
